@@ -1,0 +1,19 @@
+[project]
+name = "pricing-term-structure"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiolimiter>=1.2.1",
+    "beautifulsoup4>=4.13.5",
+    "html5lib>=1.1",
+    "httpx>=0.28.1",
+    "httpx-limiter>=0.4.0",
+    "ipykernel>=6.30.1",
+    "lxml>=6.0.1",
+    "pandas>=2.3.2",
+    "pyarrow>=21.0.0",
+    "quantlib>=1.39",
+    "xlrd>=2.0.2",
+]
